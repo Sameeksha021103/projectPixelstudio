@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameeksha's Portfolio</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #f6a82b;
+            background-color: hsl(0, 0%, 0%);
+            color: #fff;
+            scroll-behavior: smooth;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #f6a82b;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .header a:hover {
+            color: #fff;
+        }
+
+        /* Main container styling */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 100px; 
+            font-size: m;
+            /* Space for fixed header */
+        }
+
+        /* Logo styling */
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+
+        /* Profile picture styling */
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 36px;
+            color: #f7edd5;
+            margin-top: 20px;
+        }
+
+        h1 span {
+            color: #fff;
+        }
+
+        /* Founder label */
+        .founder {
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* Description paragraph styling */
+        p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.5;
+        }
+
+        /* Section styling */
+        section {
+            padding: 80px 50px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .section-content {
+            font-size: 18px;
+            color: #f6a82b;
+        }
+         /* Contact Form */
+         #contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    #contact input, #contact textarea {
+      padding: 10px;
+      border: 2px solid #e74c3c;
+      border-radius: 10px;
+      background-color: #222;
+      color: #fff;
+      font-size: 1.1em;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+
+    #contact input:focus, #contact textarea:focus {
+      border-color: #f39c12;
+    }
+    #contact button {
+      padding: 12px;
+      font-size: 1.2em;
+      color: #fff;
+      background-color: #e74c3c;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    #contact button:hover {
+      background-color: #c0392b;
+    }
+
+
+
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #f6a82b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with navigation links -->
+    <div class="header">
+      <a href="#home">HOME</a>
+        <a href="#work">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+
+    <!-- Main content section -->
+    <div class="container">
+        <!-- Logo (replace 'logo.png' with your logo image path) -->
+        <img src="Screenshot_2024-09-08_135922-removebg-preview.png" alt="Example Image" width="750" height="750">
+        <br><br><br><h1 >SAMEEKSHA RAO</h1>
+          <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+     
+      
+        <!-- About Section -->
+    <section id="about">
+        <!-- About Section -->
+     <section id="about">
+       <div class="container">
+         <div class="image-container">
+           <img src="self image.png" alt="Your Picture">
+         </div>
+         <div class="bio">
+           <h2>About Me</h2>
+           <p> Hi, I'm Sameeksha! a passionate graphic designer with a deep love for creating brand
+             identities that are not only visually appealing but also impactful. I focus on building 
+            cohesive designs that resonate with audiences and leave lasting impressions. My skills 
+            range from logo design and brand guidelines to crafting social media graphics and marketing materials.</p>
+      
+  
+
+        
+      
+        
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2 class="section-title">My Work</h2>
+        <p class="section-content">
+    
+          <!DOCTYPE html>
+          <html lang="en">
+          
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Design Portfolio</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+            <style>
+              body {
+                background-color: #111111;
+                color: #ffffff;
+                font-family: 'Arial', sans-serif;
+              }
+          
+              .hero {
+                background-color: #FFB800;
+                color: #000;
+                text-align: center;
+                padding: 50px 0;
+              }
+          
+              .projects {
+                background-color: #000000;
+                padding: 50px 0;
+              }
+          
+              .project-title {
+                margin-bottom: 20px;
+                color: #FFB800;
+              }
+          
+              .card {
+                background-color: #ffffff;
+                border: none;
+              }
+          
+              .card img {
+                max-height: 200px;
+                object-fit: cover;
+              }
+          
+              .footer {
+                background-color: #FFB800;
+                color: #000000;
+                text-align: center;
+                padding: 20px;
+              }
+          
+              .navbar {
+                background-color: #000;
+              }
+          
+              .navbar a {
+                color: #FFB800 !important;
+              }
+              
+            </style>
+          </head>
+          
+          <body>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>HOME</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    
+                </div>
+              </div>
+            </nav>
+          
+            <!-- Hero Section -->
+            <section class="hero">
+              <div class="container">
+                <h1>Welcome to My Design Portfolio</h1>
+                <p>Bold designs, professional execution.</p>
+              </div>
+            </section>
+            
+          
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+              <div class="container">
+                <h2 class="text-center project-title">Explore the Projects</h2>
+                <div class="row g-7">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="Screenshot 2024-09-10 122815.png" class="card-img-top" alt="Project 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of the first project.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="Screenshot (37).png" class="card-img-top" alt="Project 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Cabernet wine bottle .</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="Screenshot 2024-09-01 202612.png" class="card-img-top" alt="Project 3">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of the third project.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+            <!-- Footer -->
+            <footer class="footer">
+           
+            </footer>
+          
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+          </body>
+          
+          </html>
+          
+  <!-- Modal (Popup) -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal()">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+  
+
+
+
+
+
+  <p class="section-content">Feel free to reach out if you're interested in my services or just want to say hello!</p>
+  <p>Email: <a href="mailto:sameeksharao03@gmail.com" style="color: #f6a82b;">sameeksharao03@gmail.com</a></p>
+  <p>Phone: <a href="tel:+91 9137985927" style="color: #f6a82b;">+91 9137985927</a></p>
+  <!-- Contact Section -->
+<section id="contact">
+<div class="container">
+<h2>Contact Me</h2>
+<form action="#" method="POST">
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="text" name="phone" placeholder="Your Contact Number" required>
+  <textarea name="message" rows="6" placeholder="What do you want to say?" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+</div>
+
+</form>
+</div>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com">LinkedIn</a> | <a href="https://www.behance.net">Behance</a> | <a href="https://www.instagram.com">Instagram</a></p>
+        <p>&copy; 2024 Sameeksha Rao. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
